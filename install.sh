@@ -16,7 +16,7 @@ git_pull_or_clone() {
     cd "$cd"
 }
 
-#git_pull_or_clone "$REPO_URL" "$DOTFILES"
+git_pull_or_clone "$REPO_URL" "$DOTFILES"
 
 chmod +x "$DOTFILES/_init.sh"
 "$DOTFILES/_init.sh"
