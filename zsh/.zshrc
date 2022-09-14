@@ -97,8 +97,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     # SSHの接続が終わったらもとのプロファイルに戻す
     echo -e "\033]50;SetProfile=zsh\a"
   }
-  add-zsh-hook precmd ssh_color
-  add-zsh-hook preexec ssh_color
+  alias ssh='ssh_color'
+  compdef _ssh ssh_color=ssh
 elif [[ "$OSTYPE" == "cygwin" ]]; then
   #
 elif [[ "$OSTYPE" == "msys" ]]; then
