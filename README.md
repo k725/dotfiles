@@ -8,6 +8,10 @@
  - zsh
  - curl or wget
 
+## optional requirements
+
+ - neofetch
+
 ## install
 
 ```bash
