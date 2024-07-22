@@ -10,7 +10,7 @@
 
 ## optional requirements
 
- - neofetch
+ - fastfetch
 
 ## install
 

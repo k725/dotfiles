@@ -12,8 +12,8 @@ fi
 
 autoload -Uz add-zsh-hook
 
-# neofetch
-echo -e "\n";neofetch
+# fastfetch
+echo -e "\n";fastfetch
 
 # Add GOPATH
 export GOPATH=$HOME/go
